@@ -1,0 +1,31 @@
+@media(max-width: 950px) {
+    .about__block {
+        display: flex;
+        flex-direction: column;
+    }
+    .block__delimiter {
+        display: none;
+    }
+    .block__city__about {
+        display: flex;
+        justify-content: center;
+    }
+    .block__city p {
+        text-align: center;
+    }
+    .block__city {
+        margin-bottom: 20px;
+    }
+    .block__data {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .block__number {
+        margin-bottom: 20px;
+    }
+    .block__plus {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('/fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+:root {
+    --grey: #6b6b6b;
+    --black: #383838;
+    --orange: #ed9915;
+    --easy-orange: #fed18c;
+    --easy-grey: #e9e9e9;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+.wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    margin-top: 100px;
+    height: 90px;
+}
+.block__city__about {
+    display: flex;
+    justify-content: start;
+}
+.block__city__img {
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.block__city__input {
+    border: none;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    color: var(--grey);
+}
+.block__city p {
+    font-family: 'Myriad Pro';
+    font-size: 12px;
+    color: var(--black);
+    margin: 0;
+    pad: 0;
+}
+.block__data {
+    display: flex;
+    justify-content: space-between;
+}
+.block__data__arrival__about {
+    display: flex;
+    justify-content: start;
+}
+.block__data__arrival__input {
+    max-width: 250px !important;
+    border: none !important;
+    width: 100%;
+    height: 20px;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    color: var(--black);
+}
+.block__data__img {
+    margin-right: 10px;
+}
+.block__data__departure__input {
+    max-width: 250px !important;
+    width: 100%;
+    height: 20px;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    color: var(--black);
+    border: none !important;
+}
+.ui[class*="left icon"].input>input {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.block__data p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova';
+    font-size: 12px;
+    color: var(--black);
+}
+.block__number {
+    display: flex;
+}
+.block__number p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Myriad Pro';
+    color: var(--black);
+}
+.block__number input {
+    width: 30px;
+    height: 25px;
+    text-align: center;
+}
+.block__number__hotel__about {
+    display: flex;
+    justify-content: center;
+}
+.block__number__arrows {
+    margin-top: -5px;
+    margin-left: 8px
+}
+.block__number__adults {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.block__plus button {
+    width: 35px;
+    height: 35px;
+    background: var(--easy-orange);
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    margin: 0 5px;
+}
+.block__btn button {
+    width: 175px;
+    height: 63px;
+    background: var(--orange);
+    border: none;
+    color: #fff;
+    font-family: 'Proxima Nova';
+    font-size: 16px;
+    transition: 0.5s;
+}
+.block__btn button:hover {
+    transition: 0.5s;
+    background: var(--easy-orange);
+}
+.block__delimiter {
+    height: 30px;
+    width: 2px;
+    background: var(--easy-grey);
+    margin: 0 10px;
+}
+.arrow__down {
+    width: 10px;
+    height: 10px;
+    fill: var(--grey);
+    cursor: pointer;
+}
+.arrow__down:active {
+    fill: var(--orange);
+}
+.arrow__up svg {
+    width: 10px;
+    height: 10px;
+    fill: var(--grey);
+    cursor: pointer;
+}
+.arrow__up svg:active {
+    fill: var(--orange);
+}

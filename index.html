@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="about__block">
+
+            <div class="block__city">
+                <p>Место или название отеля</p>
+                <div class="block__city__about">
+                    <div class="block__city__img"><img src="./img/Эллипс 2.png" alt="city" ></div>
+                    <input type="text" placeholder="Введите здесь место" class="block__city__input">
+                </div>
+            </div>
+
+            <div class="block__delimiter"></div>
+
+            <div class="block__data">
+                <div class="block__data__arrival">
+                    <p>Заезд</p>
+                    <div class="block__data__arrival__about">
+                    <div class="block__data__img"><img src="./img/Vector Smart Object копия.png" alt="data"></div>
+                        <div class="ui calendar" id="rangestart">
+                            <div class="ui input left icon">
+                              <input type="text" placeholder="Дата заезда" class="block__data__arrival__input">
+                            </div>
+                          </div>
+                        </div>
+                </div>
+                <div class="block__data__departure">
+                    <p>Выезд</p>
+                    <div class="ui calendar" id="rangeend">
+                        <div class="ui input left icon">
+                          <input type="text" placeholder="Дата выезда" class="block__data__departure__input">
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="block__delimiter"></div>
+
+            <div class="block__number">
+
+                <div class="block__number__hotel">
+                  <p>Номер</p>
+                  <div class="block__number__hotel__about">
+                    <input type="text" placeholder="0" class="input__hotel" value="0">
+                  <div class="block__number__arrows">
+                    <div class="arrow__up" id="arrow__up__hotel"><?xml version="1.0" encoding="iso-8859-1"?>
+                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                          <path d="M490,474.459H0L245.009,15.541L490,474.459z"/>
+                      </svg>
+                      </div>
+                    <div class="arrow__down" id="arrow__down__hotel"><?xml version="1.0" encoding="iso-8859-1"?>
+                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                      <polygon points="245,456.701 490,33.299 0,33.299 "/>
+                      </svg>
+                      </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="block__number__adults">
+                  <p>Взрослые</p>
+                  <div class="block__number__hotel__about">
+                    <input type="text" placeholder="0" class="input__adults" value="0">
+                    <div class="block__number__arrows">
+                      <div class="arrow__up" id="arrow__up__adults"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                            <path d="M490,474.459H0L245.009,15.541L490,474.459z"/>
+                        </svg>
+                        </div>
+                      <div class="arrow__down" id="arrow__down__adults"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                        <polygon points="245,456.701 490,33.299 0,33.299 "/>
+                        </svg>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="block__number__kids">
+                  <p>Дети</p>
+                  <div class="block__number__hotel__about">
+                    <input type="text" placeholder="0" class="input__kids" value="0">
+                    <div class="block__number__arrows">
+                      <div class="arrow__up" id="arrow__up__kids"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                            <path d="M490,474.459H0L245.009,15.541L490,474.459z"/>
+                        </svg>
+                        </div>
+                      <div class="arrow__down" id="arrow__down__kids"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                        <polygon points="245,456.701 490,33.299 0,33.299 "/>
+                        </svg>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="block__plus">
+                <button>+</button>
+            </div>
+
+            <div class="block__btn">
+                <button>НАЙТИ</button>
+            </div>
+
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
